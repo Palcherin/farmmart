@@ -1,0 +1,131 @@
+.products{
+    display: grid;
+    top:0;
+    margin-top: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.home-container{
+    background: #eee;
+    top: 0;
+}
+.cart{
+    height: fit-content;
+    background: #fff;
+    top: 0;
+}
+.cart-header{
+    background: #eee;
+}
+.cart-items{
+    margin-top: 10px;
+}
+.checkoutbtn{
+    margin-left: 0%;
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.checkout-container{
+    padding: 0;
+    align-items: center;
+}
+/* Products.css */
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 items in a row on a laptop */
+    grid-gap: 20px; /* Adjust the gap between products */
+  }
+  .payment-container{
+    background: #fff;
+    align-items: center;
+    padding-left: 30%;
+  }
+  .payment{
+    width: 45%;
+    background: #eee;
+    padding: 20px 30px;
+    margin-top: 20px;
+    min-height: 70vh;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-left: 3%;
+    box-shadow: 3px 5px 5px #000;
+    align-items: center;
+  }
+  .payment h1{
+    color: rgb(10, 165, 100);
+    margin-left: 30%;
+  }
+  .payment form{
+    margin-left: 30%;
+    width: 100%;
+  }
+  .payment input{
+    padding: 10px 20px;
+    margin: 10px;
+    
+    outline:1px solid rgb(5, 158, 56);
+    border: transparent;
+  }
+  .payment-btn{
+    display: block;
+    gap: 20px;
+    margin: 10px;
+
+  }
+  .payment-btn .btn{
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+  }
+  .payment-btn .btn2{
+    background-color: rgb(9, 19, 80);
+    padding: 10px 20px;
+    width: 70%;
+    text-decoration: none;
+    align-items: center;
+    color: #eee;
+    font-weight: bold;
+  }
+  .payment-btn .btn2:hover{
+    background: rgb(52, 48, 119);
+  }
+  
+  @media (max-width: 768px) {
+    /* On tablets */
+    .products {
+      grid-template-columns: repeat(3, 1fr); /* Display 2 items in a row on a tablet */
+    }
+    .payment{
+      padding-left: 0;
+    }
+    .payment form{
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .checkoutbtn{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 300;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* On phones */
+    .products{
+      grid-template-columns: 1fr 1fr; /* Display 1 item in a row on a phone */
+    }
+    .payment h1{
+      font-size: 18px;
+    }
+    .payment-container{
+      padding-left: 7%;
+    }
+    .payment{
+      width: 75%;
+      margin-left: 0;
+    }
+  }
+  
