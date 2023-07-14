@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/farmmart%20/static/css/main.c84f3997.css",
+    "main.js": "/farmmart%20/static/js/main.d61b7008.js",
+    "static/media/revicons.eot": "/farmmart%20/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/farmmart%20/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/farmmart%20/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/farmmart%20/index.html",
+    "main.c84f3997.css.map": "/farmmart%20/static/css/main.c84f3997.css.map",
+    "main.d61b7008.js.map": "/farmmart%20/static/js/main.d61b7008.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c84f3997.css",
+    "static/js/main.d61b7008.js"
+  ]
+}
