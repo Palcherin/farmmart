@@ -2,7 +2,6 @@ import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom';
 import './Components.css'
 import {db } from '../confi/firebase'
-import firebase from 'firebase/app'
 import { getDocs, collection, addDoc} from 'firebase/firestore';
 
 export const Contactform = () => {

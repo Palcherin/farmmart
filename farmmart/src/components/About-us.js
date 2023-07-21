@@ -4,7 +4,12 @@ import './Components.css'
 
 export const Aboutus = () => {
   return (
+
     <div className='about-container'>
+      <div className='about-pic'>
+        <img src='assets/cabbae.jpg' />
+      </div>
+      <div className='about-content'>
         <div className='about-intro'>
         <h1>More About Us</h1>
         </div>
@@ -19,6 +24,7 @@ export const Aboutus = () => {
 
             <h3>Have any complaons or suestions?We'd love your feedback</h3>
         <Link to='/contact' >Reach Out </Link>
+        </div>
         </div>
     </div>
   )

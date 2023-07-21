@@ -10,6 +10,7 @@ export const Productphoto = () => {
         </div>
         <div className='coverphoto-content1'>
             <h1>BROWSE AVAILABLE PRODUCTS</h1>
+            <img src='assets/cabbaes'/>
             <p>We have products in all categories: vegetables,grains,seeds and seedlings.<br/> We are concerned when you dont etables,grains,seeds and seedlings. We are concerned<br/> when you dont get what you are looking for. Talk to us about what you need</p>
             <div className='home-btn'>
                 <Link to='/contact' className='btn'>Talk To Us</Link>

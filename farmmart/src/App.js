@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes ,Route, Navigate } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import Navbar from './components/Navbars';
 import { ShopContextProvider } from './Context/Shopcontext';
@@ -24,9 +24,10 @@ const App = () => {
           <Route path='/contact' element={<Contact/>} />
           <Route path='/products' element={<Products/>} />
           <Route path='/cart' element={<Cart />} />
-          <Route path='/payment' element={<Payment />} />
+          {/* <Route path='/payment' element={<Payment />} /> */}
         </Routes>
         <Footer/>
+        {/* <Navigate to="/"/> */}
       </ShopContextProvider>
       
       

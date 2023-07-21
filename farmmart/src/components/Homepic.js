@@ -35,8 +35,8 @@ export const Homepic = () => {
     autoplay: true,
     autoPlaySpeed: 3000,
     keyBoardControl: true,
-    customTransition: 'all 1s',
-    transitionDuration: 1000,
+    customTransition: 'all 2s',
+    transitionDuration: 5000,
   };
 
   return (

@@ -2,7 +2,6 @@ import React from 'react'
 import { ProductsData } from '../components/Productsdata'
 import { Product } from '../components/Product'
 import './Routes.css'
-import { Productsdata } from '../components/Productsdata'
 import { Productphoto } from '../components/productphoto'
 
 export const Products = (props) => {
@@ -24,3 +23,4 @@ export const Products = (props) => {
     </>
   )
 }
+// "lockfileVersion": 2,

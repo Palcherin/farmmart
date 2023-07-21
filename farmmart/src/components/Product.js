@@ -38,10 +38,10 @@ export const Product = (props) => {
       <p className='about'>{about}</p>
       </div>
       <div className='checkout-btn'>
-      {/* <WhatsAppLink class="whatsapp-link" phoneNumber="+254743666719" message="Hello, I have a question.">
+      <WhatsAppLink class="whatsapp-link" phoneNumber="+254743666719" message="Hello, I have a question.">
         Make An Order
-      </WhatsAppLink> */}
-      <button className="btn" onClick={()=>addToCart(id)}>Add To Cart {cartItemsAmount>0 &&<>({cartItemsAmount})</>} </button>
+      </WhatsAppLink>
+      {/* <button className="btn" onClick={()=>addToCart(id)}>Add To Cart {cartItemsAmount>0 &&<>({cartItemsAmount})</>} </button> */}
       </div>
       
       

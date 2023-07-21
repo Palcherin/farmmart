@@ -135,7 +135,24 @@
   .about-container{
     padding: 70px;
     text-align: center;
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    justify-content: space-around;
+    background: #eee;
   }
+  .about-pic{
+    flex-basis: 50%;
+    width: 100%;
+    padding: 5px;
+
+  }
+  .about-pic img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  
   .footer p{
     margin: 0;
   }
@@ -226,6 +243,7 @@
   }
   .inqury-container{
     display: flex;
+    padding:0 5%;
     justify-content: space-around;
   }
   
@@ -336,6 +354,108 @@
     width: 420px;
     text-align: center;
 }
+.subscribe{
+  width: 80%;
+  margin-left: 5%;
+  padding: 5%;
+  height: fit-content;
+  background: #eeeeee;
+  margin-top: 2%;
+  margin-bottom: 20px;
+}
+.sub-container{
+  display: flex;
+  justify-content: space-around;
+}
+.sub-content{
+  padding: 0 5px;
+  flex-basis: 50%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.sub-form{
+  flex-basis: 50%;
+  font-weight: 800;
+  width: 70%;
+  display: block;
+
+}
+
+.sub-container h2{
+  margin-left: 5%;
+  font-weight: 700;
+}
+.sub-container p{
+  font-weight: 300;
+  margin-left: 5%;
+}
+.sub-form-content{
+  margin-left: 35%;
+  width: 50%;
+}
+.sub-form-content input{
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+.whyus-container{
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  padding: 0px 40px;
+}
+.whyus-content{
+  display: flex;
+  padding-left: 5%;
+  margin-bottom: 20px;
+}
+.whyus-content p{
+font-weight: 300;
+color: #111;
+font-size: 13px;
+}
+.health{
+  background: rgb(20, 218, 53);
+  margin: 0 10px;
+  padding:3% 3%;
+}
+.nutrition{
+  background: rgb(20, 33, 218);
+  margin: 0 10px;
+  padding:3% 3%;
+}
+.compliance{
+  background: rgb(218, 165, 20);
+  margin: 0 10px;
+  padding:3% 3%;
+}
+.security{
+  background: rgb(235, 43, 10);
+  margin: 0 10px;
+  padding:3% 3%;
+  
+}
+.customers{
+  background: rgb(6, 199, 38);
+  display: flex;
+}
+.sub-container h2{
+  color: rgb(10, 218, 20);
+  
+}
+.customers-container{
+  display: flex;
+  padding:5px 10%;
+  justify-content: space-between;
+}
+.farmers-cust{
+  margin-left: 50%;
+}
+.copyriht{
+  margin-left: 0;
+  color: rgb(15, 14, 14);
+  font-weight: 300;
+  
+}
 @media screen and (max-width:640px){
     .heropic h1{
         font-size: 20px;
@@ -348,6 +468,28 @@
     }
     .contact-intro h1{
       font-size: 18px;
+    }
+    .whyus-container h1{
+      font-size: 20px;
+    }
+    .whyus-container button{
+      width: fit-content;
+    }
+    .health, .nutrition, .compliace, .security{
+      padding: 0;
+      font-size: 8px;
+      width: 100%;
+    }
+    .whyus-content h4{
+      font-size: 15px;
+    }
+    .btn{
+      padding: 5px 5px;
+      font-size: 10px;
+    }
+    .whyus-content{
+      display: grid;
+      grid-template-columns: 1fr;
     }
    
 
@@ -412,6 +554,69 @@
   }
   .cart-structure{
     display: block;
+  }
+  .subscribe{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    grid-template-rows: 1fr 1fr;
+    
+  }
+  .sub-container{
+    display: block;
+    padding:0 5%;
+  }
+  .sub-container p{
+    width: 80%;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .whyus-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+  }
+  .whyus-container h1{
+    font-size: 20px;
+  }
+  .whyus-container button{
+    width: fit-content;
+  }
+  .health, .nutrition, .compliace, .security{
+    padding: 0;
+    font-size: 10px;
+    width: 100%;
+  }
+  .whyus-content h4{
+    font-size: 15px;
+  }
+  .btn{
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+  .whatsapp-link {
+    display: inline-block;
+    padding: 3pxpx 5pxpx;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  a{
+    background-color: green;
+    padding: 5px 5px;
+    width: 100%;
+    text-decoration: none;
+    align-items: center;
+    color: #eee;
+    font-weight: bold;
+  }
+  a:hover{
+    background-color: darkgreen;
   }
   
 }
@@ -500,6 +705,11 @@
     padding: 0;
     
   }
+  .whyus-content{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+ 
   
 }
 

@@ -57,7 +57,7 @@ const Navbar = () => {
         </ul>
         {/* <button className='react-icon'> */}
         <Link to='/cart' className='cart-icon' onClick={closeMobileMenu}>
-        <FaShoppingBasket size={30}/>
+        <FaShoppingBasket className='icons1' size={30}/>
             </Link>
           
         {/* </button> */}

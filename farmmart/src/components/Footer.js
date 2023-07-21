@@ -37,6 +37,11 @@ export const Footer = () => {
               <button className='btn'>Send</button>
             </div>
         </div>
+        <div className='copyriht'>
+        <hr/>
+        <p>© 2023 farmmart, Inc. terms & conditions appy</p>
+        </div>
+       
     </div>
   )
 }
